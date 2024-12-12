@@ -244,10 +244,11 @@ padding: 120px 0;
 
 .list-sect-two {display: flex;}
 
-.item-sect-two .container {
+.sect-two-container {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 264px;
     height: 112px;
     background-color: #f4f4fd;
     border-radius: 4px;
@@ -261,13 +262,13 @@ padding: 120px 0;
     }
 .sect-two-icons {
     display: flex;
-border: 1px solid #8e8f99;
-    border-radius: 4px;
-    width: 264px;
-    height: 112px;
-    background: #f4f4fd;
-    padding: 24px 100px;
-    margin-bottom: 8px;
+        width: 264px;
+        height: 112px;
+        background: #f4f4fd;
+        padding: 24px 100px;
+        margin-bottom: 8px;
+        
+    
 }
 .item-sect-two:last-child {margin-right: 0;}
 .subject {font-weight: 500;
